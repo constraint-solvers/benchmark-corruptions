@@ -8,11 +8,11 @@ SST2, IMDB, YELP and DBPEDIA
 The repository consists of two folders each corresponding to the respective models used.
 The filenames follow the convention:
 [DATASET]_[CORRUPTION STRATEGY][CORRUPTION METHOD]_[MODEL]_n
-# DATASET is the base dataset that was used
-# CORRUPTION STRATEGY One of Random or LIME based corruption
-# CORRUPTION METHOD Corresponds to how the selected word was modified (Deleted, Spelling Error Introduced, Text Noise introduced, Replaced by Synonym)
-# MODEL The model used for LIME explanations
-# n The number of words changed as per the strategy
+* DATASET is the base dataset that was used
+* CORRUPTION STRATEGY One of Random or LIME based corruption
+* CORRUPTION METHOD Corresponds to how the selected word was modified (Deleted, Spelling Error Introduced, Text Noise introduced, Replaced by Synonym)
+* MODEL The model used for LIME explanations
+* n The number of words changed as per the strategy
 
 PS:
 For the fasttext model, the files are in the format LABEL[TAB]TEXT
